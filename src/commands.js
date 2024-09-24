@@ -18,7 +18,7 @@ const commands = [
 ]
 
 /** Register the commands */
-const rest = new REST().setToken(process.env.DISCORD_API_TOKEN);
+const rest = new REST().setToken(process.env.DISCORD_API_KEY);
 
 /** Actually going to register the commands */
 (async () => {
